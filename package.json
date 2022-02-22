@@ -1,0 +1,37 @@
+{
+  "name": "sample-webpack-plugin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack serve --open",
+    "build": "webpack",
+    "watch": "webpack --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SidV2/sample-webpack-plugin.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SidV2/sample-webpack-plugin/issues"
+  },
+  "homepage": "https://github.com/SidV2/sample-webpack-plugin#readme",
+  "devDependencies": {
+    "css-loader": "^6.6.0",
+    "html-loader": "^3.1.0",
+    "node-sass": "^7.0.1",
+    "postcss-loader": "^6.2.1",
+    "sass-loader": "^12.6.0",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.69.1",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.7.4"
+  },
+  "dependencies": {
+    "html-webpack-plugin": "^5.5.0"
+  }
+}
